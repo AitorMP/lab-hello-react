@@ -19,41 +19,61 @@ function App() {
         </nav>
 
         <div className="content-container">
-          <h1>Say hello to react</h1>
+          <h1>Say hello to ReactJS</h1>
           <p>
-            You wil learn how to use the most popular frontend library, and
-            become a super Ninja Developer
+            You wil learn how to use <br />
+            the most popular frontend library,
+            <br />
+            and become a super Ninja Developer
           </p>
           <button>Awesome!</button>
         </div>
       </section>
 
-      <section className="logo-container">
-        <div className="logo1">
+      <section className="bottom-section">
+        <div className="logo">
           <img src={icon1} alt=" Icon 1" width="100" />
           <h3>Declarative</h3>
+          <p>
+            React makes it <br />
+            painless to create
+            <br />
+            interactive UIs.
+          </p>
         </div>
 
-        <div className="logo1">
-          <p>React makes it painless to create interactive UIs.</p>
+        <div className="logo">
           <img src={icon2} alt=" Icon 2" width="100" />
-        </div>
-
-        <div className="logo2">
           <h3>Components</h3>
-          <p>Build encapsulated components that manage their state.</p>
+          <p>
+            Build encapsulated
+            <br />
+            components that manage
+            <br />
+            their state.
+          </p>
         </div>
 
-        <div className="logo3">
+        <div className="logo">
           <img src={icon3} alt=" Icon 3" width="100" />
           <h3>Single-Way</h3>
-          <p>A set of immutable values re passed to the component's.</p>
+          <p>
+            A set of immutable
+            <br />
+            values re passed to
+            <br />
+            the component's.
+          </p>
         </div>
 
-        <div className="logo4">
+        <div className="logo">
           <img src={icon4} alt=" Icon 4" width="100" />
           <h3>JSX</h3>
-          <p>Statically-typed, designed to run on modern browsers.</p>
+          <p>
+            Statically-typed,
+            <br /> designed to run on
+            <br /> modern browsers.
+          </p>
         </div>
       </section>
     </div>
